@@ -11,6 +11,7 @@
 ## Credits
 - https://github.com/idesis-gmbh/png2icons
 - https://icon-sets.iconify.design/?query=github
+- Icons by <a href="https://icons8.com/icon/set/favicon/color">icons8.com</a>
 
 ## References
 - https://developer.mozilla.org/en-US/docs/Web/HTML
