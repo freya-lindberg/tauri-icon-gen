@@ -8,6 +8,9 @@
 - icon.ico (←icon.png)
 - <strong><span style="color: rgb(255, 125, 125);">icon.png (512x512, source)<span><strong>
 
+## Info
+- Node.js 23.4.0
+
 ## Copyright
 - Icons by <a href="https://icons8.com/icons">icons8.com</a>
 
