@@ -9,8 +9,7 @@
 - icon.png
 
 ## Credits
-- https://github.com/idesis-gmbh/png2icons
-- 
+- Convert PNG files to ICNS or ICO formats: <a href="https://github.com/idesis-gmbh/png2icons">png2icons</a>
 - Icons by <a href="https://icons8.com/icon/set/favicon/color">Icons8</a> and <a href="https://icon-sets.iconify.design/?query=github">Iconify Design</a>
 
 ## References
