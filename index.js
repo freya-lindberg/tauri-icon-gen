@@ -25,8 +25,8 @@ document.getElementById("run").addEventListener("click", async () => {
             { name: "128x128.png", extension: "png", width: 128, },
             { name: "256x256.png", extension: "png", width: 256, },
             { name: "icon.png", extension: "png", width: 512, },
-            { name: "icon.icns", extension: "icns", width: 512, },
-            { name: "icon.ico", extension: "ico", width: 512 },
+            // { name: "icon.icns", extension: "icns", width: 512, },
+            // { name: "icon.ico", extension: "ico", width: 512 },
         ];
         
         output.innerHTML = ""; 
@@ -81,20 +81,33 @@ document.getElementById("run").addEventListener("click", async () => {
         const img = document.createElement("img");
 
         img.src = resizedCanvas.toDataURL("image/png");
-        img.alt = `${size}x${size}`;
+        img.alt = `${name}`;
 
-        output.appendChild(img);
-        
-        const link = document.createElement("a");
+        fetch(img.src)
+          .then((res) => {
+            res.blob()
+              .then((blob) => {
+                const blobUrl = URL.createObjectURL(blob);
 
-        link.href = img.src;
-        link.download = `${name}.png`;
+                const link = document.createElement('a');
+                link.href = blobUrl;
+                link.download = name;
 
-        output.appendChild(link);
-        
-        link.click();
+                output.appendChild(link);
+                
+                link.click();
 
-        resolve();
+                URL.revokeObjectURL(blobUrl);
+
+                resolve();
+              })
+              .catch((e) => {
+                console.error(e);
+              });
+          })
+          .catch((e) => {
+            console.error(e);
+          });
     });
   }
   
