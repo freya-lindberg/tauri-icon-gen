@@ -10,6 +10,7 @@
 
 ## Info
 - Node.js 23.4.0
+- Only supports image files with extensions: png, jpg, jpeg or webp.
 
 ## Copyright
 - Icons by <a href="https://icons8.com/icons">icons8.com</a>
@@ -17,5 +18,7 @@
 ## References
 - chatgpt
 - https://stackoverflow.com/questions/35465557/how-to-apply-color-on-text-in-markdown
+- https://stackoverflow.com/questions/47998851/node-js-readline-inside-of-promises
 - https://www.npmjs.com/package/sharp
 - https://nodejs.org/api/readline.html
+- https://nodejs.org/api/fs.html#promise-example
