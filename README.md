@@ -8,8 +8,5 @@
 - icon.ico
 - icon.png
 
-## Copyright
-- Icons by <a href="https://icons8.com/icons">icons8.com</a>
-
 ## References
 - chatgpt

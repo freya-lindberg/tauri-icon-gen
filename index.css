@@ -4,3 +4,56 @@ html, body, .container {
     padding: 0;
     margin: 0;
 }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    text-align: center;
+    background-color: rgb(75, 45, 131);
+}
+
+input, output, img, a {
+    display: none;
+}
+
+h1, button, p {
+    font-family: serif;
+}
+
+h1 {
+    color: rgb(174, 150, 218);
+}
+
+span {
+    margin-bottom: 24px;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+    color: rgb(118, 86, 177);
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 4px;
+    color: rgb(174, 150, 218);
+}
+
+button {
+    width: 196px;
+    height: 48px;
+    font-size: 24px;
+    padding: 5px 25px;
+    background-color: rgb(119, 91, 172);
+    color: rgb(226, 211, 255);
+    border: none;
+    border-radius: 32px;
+    transition: all 0.5s;
+}
+
+button:hover {
+    background-color: rgb(96, 60, 163);
+}

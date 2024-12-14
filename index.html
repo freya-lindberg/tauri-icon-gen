@@ -3,12 +3,24 @@
     <head>
         <title>tauri-icon-gen</title>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <script src="index.js"></script>
         <div class="container">
+            <h1>tauri-icon-gen</h1>
+            <input type="file" id="upload" accept="image/*" />
+            <span>
+                <p class="title">Output:</p>
+                <p>32x32.png</p>
+                <p>128x128.png</p>
+                <p>256x256.png</p>
+                <p>icon.icns</p>
+                <p>icon.ico</p>
+            </span>
+            <button id="run">Select & Run</button>
+            <div class="output"></div>
         </div>
+        <script src="index.js"></script>
     </body>
 </html>
