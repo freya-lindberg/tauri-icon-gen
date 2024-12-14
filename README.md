@@ -6,7 +6,7 @@
 - 128x128@2x.png (256x256)
 - icon.icns (←icon.png)
 - icon.ico (←icon.png)
-- <strong><span style="color: rgb(255, 125, 125);">icon.png (512x512, source)<span><strong>
+- icon.png
 
 ## Info
 - Node.js 23.4.0
@@ -18,3 +18,4 @@
 - chatgpt
 - https://stackoverflow.com/questions/35465557/how-to-apply-color-on-text-in-markdown
 - https://www.npmjs.com/package/sharp
+- https://nodejs.org/api/readline.html
