@@ -3,7 +3,7 @@
 ## make this icons:
 - 32x32.png
 - 128x128.png
-- <span>128x128@2x.png<span> (256x256)
+- 256x256.png
 - icon.icns (←icon.png)
 - icon.ico (←icon.png)
 - icon.png
