@@ -8,6 +8,7 @@ html, body, .container {
 .container {
     display: flex;
     flex-direction: column;
+    gap: 24px;
     align-items: center;
     justify-content: start;
     text-align: center;
@@ -18,11 +19,25 @@ input, output, img, a {
     display: none;
 }
 
+a.url {
+    width: 32px;
+    height: 32px;
+    display: block;
+    color: rgb(141, 141, 141);
+    transition: all 0.5s;
+}
+
+a.url:hover {
+    color: rgb(94, 94, 94);
+}
+
 h1, button, p {
     font-family: serif;
 }
 
 h1 {
+    padding: 0;
+    margin: 0;
     color: rgb(174, 150, 218);
 }
 
@@ -56,4 +71,18 @@ button {
 
 button:hover {
     background-color: rgb(96, 60, 163);
+}
+
+header {
+    margin-top: 24px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    position: absolute;
+    bottom: 48px;
 }
