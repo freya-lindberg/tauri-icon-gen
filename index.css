@@ -23,12 +23,12 @@ a.url {
     width: 32px;
     height: 32px;
     display: block;
-    color: rgb(141, 141, 141);
+    color: rgb(119, 91, 172);
     transition: all 0.5s;
 }
 
 a.url:hover {
-    color: rgb(94, 94, 94);
+    color: rgb(96, 60, 163);
 }
 
 h1, button, p {
